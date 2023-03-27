@@ -166,30 +166,31 @@ body {
   color: var(--background-color);
   padding-top: 188px;
 }
-.hero-btn {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  background-color: var(--second-color);
-
-  align-items: center;
-  letter-spacing: 0.04em;
-
-  color: var(--background-color);
-  cursor: pointer;
-  border-radius: 4px;
-  min-width: 169px;
-  height: 56px;
-}
 .hero-container {
   padding-left: 636px;
-
   padding-bottom: 188px;
+}
+.hero-btn {
+  border: none;
+  padding: 16px 32px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--background-color);
+  background-color: var(--second-color);
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  cursor: pointer;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 .hero-btn:is(:hover, :focus) {
   background-color: var(--color-link);
 }
+
 /* -----------------------Sectiom 2----------------------- */
 .description {
 }
@@ -320,10 +321,14 @@ body {
   gap: 24px;
 }
 .style-btn {
+  background: var(--accent);
+  border-radius: 4px;
 }
 
 .text-btn {
-  font-family: "Roboto", sans-serif;
+  border: none;
+  padding: 12px 24px;
+  font-family: “Roboto”, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -331,10 +336,9 @@ body {
   color: var(--second-color);
   background-color: var(--light);
   cursor: pointer;
-
-  box-sizing: border-box;
   border-radius: 4px;
-  padding: 12px 24px;
+  box-sizing: border-box;
+  background-color: transparent;
 }
 .text-btn:is(:hover, :focus) {
   background-color: var(--color-link);
