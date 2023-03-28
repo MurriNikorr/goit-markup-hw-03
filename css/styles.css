@@ -66,11 +66,11 @@ body {
   box-sizing: border-box;
   border-bottom: 1px solid var(--accent);
   padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-container {
   display: flex;
   align-items: center;
-  padding-bottom: 24px;
 }
 .header-navigation {
   display: flex;
@@ -194,6 +194,8 @@ body {
 /* -----------------------Sectiom 2----------------------- */
 .description {
 }
+.desc-container {
+}
 .features {
 }
 .desc-item {
@@ -221,6 +223,7 @@ body {
 }
 /* ----------------Section 3----------------- */
 .photo {
+  padding-bottom: 120px;
 }
 .photo-titel {
   font-size: 36px;
@@ -384,7 +387,7 @@ body {
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
-  padding-left: 156px;
+  justify-content: center;
 }
 .photo-solid {
   border: 1px solid var(--accent);
