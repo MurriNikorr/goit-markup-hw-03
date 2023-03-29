@@ -320,6 +320,7 @@ body {
 }
 /* -------------Portfolio------------- */
 .container-btn {
+  padding-top: 96px;
 }
 .container-photo {
   padding-bottom: 120px;
@@ -328,8 +329,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .style-btn {
   background: var(--accent);
